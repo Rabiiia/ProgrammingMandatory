@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../matches/match.css">
+    <link rel="stylesheet" href="../global.css">
+    <link rel="stylesheet" href="./champions.css">
+    <script src="../escapehtml.js"></script>
+    <title>Champions</title>
+</head>
+<body>
+
+<div class="top-nav">
+    <nav>
+        <a href="../matches/createMatch.html">Create Match</a>
+        <a href="../champions/champions.html">Champions</a>
+        <a href="../summoners/summoners.html">Summoners</a>
+    </nav>
+</div>
+
+<div id="champion">
+<select id="status-dropdown">
+    <option value="All">All</option>
+    <option value="Tank">Tank</option>
+    <option value="Mage">Mage</option>
+    <option value="Fighter">Fighter</option>
+    <option value="Assassin">Assassin</option>
+    <option value="Support">Support</option>
+    <option value="Marksman">Marksman</option>
+</select>
+
+<button id="search">Search</button>
+<input id="name-search" placeholder="Search champion">
+</div>
+
+
+<div id="create-champions-list">
+
+</div>
+
+<script src="./champions.js"></script>
+<script src="./searchChampions.js"></script>
+</body>
+</html>
